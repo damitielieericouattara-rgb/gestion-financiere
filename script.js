@@ -1,4 +1,4 @@
- // Activation/désactivation du menu mobile (menu hamburger)
+ // Activation/désactivation du menu hamburger
         const mobileMenuBtn = document.getElementById('mobile-menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
 

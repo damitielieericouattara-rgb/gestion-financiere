@@ -108,5 +108,5 @@ let pendingTransactions = [
         // ⭐ SIMULER L'ARRIVÉE DE NOUVELLES DEMANDES (pour démonstration) ⭐
         // En production, cela viendrait du back-end via AJAX/WebSocket
         setTimeout(() => {
-            notifyNewRequest('Thomas Durand', 250000);
+            notifyNewRequest('Doumbia ali', 250000);
         }, 10000); // Après 10 secondes

@@ -1,8 +1,8 @@
 // Fichier JavaScript principal pour l'application de gestion financière
 
-// ============================================================================
+ 
 // UTILITAIRES GÉNÉRAUX
-// ============================================================================
+ 
 
 /**
  * Formatte un nombre en devise FCFA
@@ -59,9 +59,9 @@ function escapeHtml(text) {
     return text.replace(/[&<>"']/g, m => map[m]);
 }
 
-// ============================================================================
+ 
 // GESTION DES MESSAGES ET NOTIFICATIONS
-// ============================================================================
+ 
 
 /**
  * Affiche un message de notification
@@ -112,9 +112,9 @@ function createMessageContainer() {
     return container;
 }
 
-// ============================================================================
+ 
 // VALIDATION DES FORMULAIRES
-// ============================================================================
+ 
 
 /**
  * Valide un formulaire de transaction
@@ -168,9 +168,9 @@ function validateUserForm(formData) {
     };
 }
 
-// ============================================================================
+ 
 // GESTION DES MODALS
-// ============================================================================
+ 
 
 /**
  * Ouvre un modal
@@ -204,9 +204,9 @@ document.addEventListener('click', function(e) {
     }
 });
 
-// ============================================================================
+ 
 // GESTION DE LA SESSION ET DÉCONNEXION
-// ============================================================================
+ 
 
 /**
  * Déconnexion automatique après inactivité
@@ -243,9 +243,9 @@ function checkAuthentication() {
     }
 }
 
-// ============================================================================
+ 
 // UTILITAIRES DE TABLEAUX
-// ============================================================================
+ 
 
 /**
  * Trie un tableau par colonne
@@ -296,9 +296,9 @@ function filterTable(tableId, searchValue, columnIndex = null) {
     });
 }
 
-// ============================================================================
+ 
 // GESTION DU STOCKAGE LOCAL
-// ============================================================================
+ 
 
 /**
  * Sauvegarde des données dans le localStorage
@@ -339,9 +339,9 @@ function removeFromLocalStorage(key) {
     }
 }
 
-// ============================================================================
+ 
 // REQUÊTES AJAX (pour intégration avec PHP)
-// ============================================================================
+ 
 
 /**
  * Effectue une requête AJAX
@@ -373,9 +373,9 @@ async function makeRequest(url, method = 'GET', data = null) {
     }
 }
 
-// ============================================================================
+ 
 // CONFIRMATION D'ACTIONS
-// ============================================================================
+ 
 
 /**
  * Affiche une boîte de dialogue de confirmation
@@ -386,9 +386,9 @@ function confirmAction(message, callback) {
     }
 }
 
-// ============================================================================
+ 
 // EXPORT DE DONNÉES
-// ============================================================================
+ 
 
 /**
  * Exporte un tableau en CSV
@@ -417,9 +417,9 @@ function exportTableToCSV(tableId, filename) {
     window.URL.revokeObjectURL(url);
 }
 
-// ============================================================================
+ 
 // INITIALISATION AU CHARGEMENT DE LA PAGE
-// ============================================================================
+ 
 
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Application de Gestion Financière chargée');
@@ -440,9 +440,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// ============================================================================
+ 
 // GESTION DES ERREURS GLOBALES
-// ============================================================================
+ 
 
 window.addEventListener('error', function(e) {
     console.error('Erreur JavaScript:', e.error);
@@ -452,9 +452,9 @@ window.addEventListener('unhandledrejection', function(e) {
     console.error('Promesse rejetée:', e.reason);
 });
 
-// ============================================================================
+ 
 // EXPORT DES FONCTIONS POUR USAGE GLOBAL
-// ============================================================================
+ 
 
 // Les fonctions sont déjà accessibles globalement car elles sont déclarées avec function
 // Si vous utilisez des modules ES6, vous pouvez les exporter ainsi :

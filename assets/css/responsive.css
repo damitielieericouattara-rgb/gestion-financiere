@@ -1,6 +1,6 @@
-/* ===========================
+/*  
    STYLES RESPONSIVE GLOBAUX
-   =========================== */
+     */
 
 /* Reset pour éviter les débordements */
 * {
@@ -31,9 +31,9 @@ body {
     padding: 0 1rem;
 }
 
-/* ===========================
+/*  
    NAVBAR FIXE ET RESPONSIVE
-   =========================== */
+     */
 nav {
     position: fixed;
     top: 0;
@@ -146,9 +146,9 @@ nav .logo-text {
     
     }
 
-/* ===========================
+/*  
    GRILLES RESPONSIVE
-   =========================== */
+     */
 .grid-responsive {
     display: grid;
     gap: 1.5rem;
@@ -173,9 +173,9 @@ nav .logo-text {
     }
 }
 
-/* ===========================
+/*  
    TABLEAUX RESPONSIVE
-   =========================== */
+     */
 .table-container {
     width: 100%;
     overflow-x: auto;
@@ -200,9 +200,9 @@ table {
     }
 }
 
-/* ===========================
+/*  
    CARTES RESPONSIVE
-   =========================== */
+     */
 .card {
     background: white;
     border-radius: 0.5rem;
@@ -218,9 +218,9 @@ table {
     }
 }
 
-/* ===========================
+/*  
    FORMULAIRES RESPONSIVE
-   =========================== */
+     */
 .form-group {
     width: 100%;
     margin-bottom: 1rem;
@@ -241,9 +241,9 @@ input, textarea, select {
     }
 }
 
-/* ===========================
+/*  
    BOUTONS RESPONSIVE
-   =========================== */
+     */
 .btn {
     display: inline-block;
     padding: 0.75rem 1.5rem;
@@ -268,9 +268,9 @@ input, textarea, select {
     }
 }
 
-/* ===========================
+/*  
    MODALS RESPONSIVE
-   =========================== */
+     */
 .modal {
     position: fixed;
     inset: 0;
@@ -299,9 +299,9 @@ input, textarea, select {
     }
 }
 
-/* ===========================
+/*  
    TEXTE RESPONSIVE
-   =========================== */
+     */
 h1 {
     font-size: 2rem;
     line-height: 1.2;
@@ -331,9 +331,9 @@ h3 {
     }
 }
 
-/* ===========================
+/*  
    STATISTIQUES RESPONSIVE
-   =========================== */
+     */
 .stats-grid {
     display: grid;
     gap: 1rem;
@@ -352,9 +352,9 @@ h3 {
     }
 }
 
-/* ===========================
+/*  
    GRAPHIQUES RESPONSIVE
-   =========================== */
+     */
 .chart-container {
     position: relative;
     width: 100%;
@@ -367,9 +367,9 @@ canvas {
     height: auto !important;
 }
 
-/* ===========================
+/*  
    ESPACEMENTS RESPONSIVE
-   =========================== */
+     */
 .section-padding {
     padding: 2rem 1rem;
 }
@@ -386,9 +386,9 @@ canvas {
     }
 }
 
-/* ===========================
+/*  
    UTILITAIRES RESPONSIVE
-   =========================== */
+     */
 .hide-mobile {
     display: none;
 }
@@ -423,9 +423,9 @@ canvas {
     }
 }
 
-/* ===========================
+/*  
    ANIMATIONS
-   =========================== */
+     */
 @keyframes slideInFromTop {
     from {
         transform: translateY(-100%);
@@ -446,9 +446,9 @@ canvas {
     }
 }
 
-/* ===========================
+/*  
    SCROLLBAR PERSONNALISÉE
-   =========================== */
+     */
 ::-webkit-scrollbar {
     width: 8px;
     height: 8px;
@@ -467,9 +467,9 @@ canvas {
     background: #059669;
 }
 
-/* ===========================
+/*  
    IMPRESSION
-   =========================== */
+     */
 @media print {
     nav,
     .mobile-menu-btn,
@@ -487,15 +487,13 @@ canvas {
     }
 }
 
-/* ===========================
-   ACCESSIBILITÉ
-   =========================== */
+            /* ACCESSIBILITÉ */
 *:focus-visible {
     outline: 2px solid #10b981;
     outline-offset: 2px;
 }
 
-/* Touch targets minimum 44x44px */
+            /* Touch targets minimum 44x44px */
 button,
 a,
 input[type="checkbox"],
@@ -504,9 +502,7 @@ input[type="radio"] {
     min-width: 44px;
 }
 
-/* ===========================
-   FIXES POUR DÉBORDEMENTS
-   =========================== */
+            /* FIXES POUR DÉBORDEMENTS */
 img,
 video,
 iframe {

@@ -3,9 +3,9 @@
  * Affiche des notifications en haut à droite de l'écran
  */
 
-// ============================================================================
+ 
 // FONCTION PRINCIPALE POUR AFFICHER UNE NOTIFICATION
-// ============================================================================
+ 
 
 /**
  * Affiche une notification
@@ -177,9 +177,9 @@ function playNotificationSound(type) {
     }
 }
 
-// ============================================================================
+ 
 // FONCTIONS RACCOURCIES (pour faciliter l'utilisation)
-// ============================================================================
+ 
 
 /**
  * Notification de succès (vert)
@@ -209,9 +209,9 @@ function notifyInfo(message, duration = 5000) {
     return showNotification(message, 'info', duration);
 }
 
-// ============================================================================
+ 
 // FONCTIONS SPÉCIFIQUES POUR L'APPLICATION
-// ============================================================================
+ 
 
 /**
  * Notification pour transaction soumise
@@ -253,9 +253,9 @@ function notifyNewRequest(userName, montant) {
     );
 }
 
-// ============================================================================
+ 
 // STYLES CSS POUR LES ANIMATIONS
-// ============================================================================
+ 
 
 // Ajouter les styles d'animation dans le DOM
 if (!document.getElementById('notification-styles')) {
@@ -276,13 +276,13 @@ if (!document.getElementById('notification-styles')) {
     document.head.appendChild(styleSheet);
 }
 
-// ============================================================================
+ 
 // INITIALISATION
-// ============================================================================
+ 
 
 console.log('✅ Système de notifications chargé et prêt !');
 
-// TEST AUTOMATIQUE (décommenter pour tester)
+//  pour tester
 // setTimeout(() => {
 //     notifySuccess('Le système de notifications fonctionne !');
 // }, 1000);

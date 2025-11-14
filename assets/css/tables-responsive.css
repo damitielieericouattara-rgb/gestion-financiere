@@ -1,11 +1,11 @@
-/* ===========================
+/* 
    RESPONSIVE TABLEAUX - MASQUER ICÔNES SUR MOBILE
    À ajouter dans responsive.css
-   =========================== */
+    */
 
-/* ===========================
+/* 
    TABLEAUX - ICÔNES RESPONSIVE
-   =========================== */
+    */
 
 /* Masquer les icônes dans les en-têtes de tableaux sur mobile */
 @media (max-width: 768px) {
@@ -40,9 +40,9 @@
     }
 }
 
-/* ===========================
+/* 
    TABLEAUX - OPTIMISATION MOBILE
-   =========================== */
+    */
 
 @media (max-width: 768px) {
     /* Réduire la taille des cellules */
@@ -101,9 +101,9 @@
     }
 }
 
-/* ===========================
+/* 
    BOUTONS D'ACTIONS DANS TABLEAUX
-   =========================== */
+    */
 
 @media (max-width: 768px) {
     /* Réduire la taille des boutons d'action */
@@ -152,9 +152,9 @@
     }
 }
 
-/* ===========================
+/* 
    STATISTIQUES CARDS RESPONSIVE
-   =========================== */
+    */
 
 @media (max-width: 640px) {
     /* Masquer les icônes dans les cards de stats aussi */
@@ -186,9 +186,9 @@
     }
 }
 
-/* ===========================
+/* 
    TITRES ET EN-TÊTES
-   =========================== */
+    */
 
 @media (max-width: 640px) {
     /* Masquer/réduire icônes dans les titres */
@@ -209,9 +209,9 @@
     }
 }
 
-/* ===========================
+/* 
    BOUTON "AJOUTER" RESPONSIVE
-   =========================== */
+    */
 
 @media (max-width: 640px) {
     /* Bouton d'ajout en haut de page */
@@ -248,9 +248,9 @@
     }
 }
 
-/* ===========================
+/* 
    FILTRES PAGE HISTORIQUE
-   =========================== */
+    */
 
 @media (max-width: 768px) {
     /* Masquer icônes dans les labels de filtres */
@@ -259,9 +259,9 @@
     }
 }
 
-/* ===========================
+/* 
    BADGE COMPTEUR "EN ATTENTE"
-   =========================== */
+    */
 
 @media (max-width: 640px) {
     /* Réduire le badge de compteur */
@@ -288,9 +288,9 @@
     }
 }
 
-/* ===========================
+/* 
    SOLDE GLOBAL (DASHBOARD)
-   =========================== */
+    */
 
 @media (max-width: 640px) {
     /* Réduire l'icône wallet */
@@ -306,9 +306,9 @@
     }
 }
 
-/* ===========================
+/* 
    LIENS RAPIDES (DASHBOARD)
-   =========================== */
+    */
 
 @media (max-width: 640px) {
     /* Réduire les icônes des liens rapides */
@@ -328,9 +328,9 @@
     }
 }
 
-/* ===========================
+/* 
    OPTIMISATIONS GÉNÉRALES
-   =========================== */
+    */
 
 /* Garder les icônes importantes visibles */
 @media (max-width: 640px) {
@@ -348,9 +348,9 @@
     }
 }
 
-/* ===========================
+/* 
    ACCESSIBILITÉ
-   =========================== */
+    */
 
 /* S'assurer que les boutons restent cliquables */
 @media (max-width: 640px) {
@@ -364,9 +364,9 @@
     }
 }
 
-/* ===========================
+/* 
    PRINT (ne rien masquer à l'impression)
-   =========================== */
+    */
 
 @media print {
     /* Réafficher toutes les icônes pour l'impression */

@@ -1,6 +1,6 @@
-// ===========================
+ 
 // SCRIPT MENU HAMBURGER
-// ===========================
+ 
 
 document.addEventListener('DOMContentLoaded', function() {
     initMobileMenu();
@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
     initNavbarScroll();
 });
 
-// ===========================
+ 
 // MENU MOBILE
-// ===========================
+ 
 function initMobileMenu() {
     const mobileMenuBtn = document.getElementById('mobile-menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
@@ -103,9 +103,9 @@ function closeMenu() {
     document.body.style.overflow = '';
 }
 
-// ===========================
+ 
 // DÉFILEMENT FLUIDE
-// ===========================
+ 
 function initSmoothScroll() {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
@@ -135,9 +135,9 @@ function initSmoothScroll() {
     });
 }
 
-// ===========================
+ 
 // NAVBAR AU SCROLL
-// ===========================
+ 
 function initNavbarScroll() {
     const navbar = document.querySelector('nav');
     if (!navbar) return;
@@ -158,9 +158,9 @@ function initNavbarScroll() {
     });
 }
 
-// ===========================
+ 
 // DÉTECTION RESPONSIVE
-// ===========================
+ 
 function isMobile() {
     return window.innerWidth < 768;
 }
@@ -173,9 +173,9 @@ function isDesktop() {
     return window.innerWidth >= 1024;
 }
 
-// ===========================
+ 
 // GESTION DES TABLEAUX
-// ===========================
+ 
 function makeTablesResponsive() {
     const tables = document.querySelectorAll('table:not(.table-responsive)');
     
@@ -195,9 +195,9 @@ function makeTablesResponsive() {
 // Appliquer au chargement
 document.addEventListener('DOMContentLoaded', makeTablesResponsive);
 
-// ===========================
+ 
 // GESTION DES IMAGES
-// ===========================
+ 
 function optimizeImages() {
     const images = document.querySelectorAll('img:not([loading])');
     
@@ -216,9 +216,9 @@ function optimizeImages() {
 
 document.addEventListener('DOMContentLoaded', optimizeImages);
 
-// ===========================
+ 
 // UTILITAIRES
-// ===========================
+ 
 
 // Empêcher le zoom lors du focus sur mobile
 if (isMobile()) {
@@ -256,9 +256,9 @@ if (window.location.hostname === 'localhost' || window.location.hostname === '12
     window.addEventListener('load', preventHorizontalScroll);
 }
 
-// ===========================
+ 
 // EXPORT
-// ===========================
+ 
 window.responsiveUtils = {
     isMobile,
     isTablet,

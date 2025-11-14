@@ -11,8 +11,8 @@
 </head>
 <body class="bg-gray-50 font-sans antialiased">
 
-    <!---------------------------------NAVBAR------------------------------->
-    <!-- NAVBAR FIXE RESPONSIVE -->
+    <!---------------------------------NAVBAR ------------------------------->
+                        <!-- NAVBAR FIXE RESPONSIVE -->
 <nav class="bg-white shadow-md fixed w-full top-0 z-50 transition-all duration-300">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
@@ -25,9 +25,8 @@
                     <span class="text-xl md:text-2xl font-bold text-gray-800">Gestion Financière</span>
                 </div>
 
-            <!-- Menu Desktop - ADAPTER SELON LA PAGE -->
+            <!-- Menu Desktop -->
             <div class="hidden md:flex items-center space-x-4">
-                <!-- Pour index.html -->
                 <a href="#home" class="text-gray-700 hover:text-green-600 transition-colors font-medium">Accueil</a>
                 <a href="#features" class="text-gray-700 hover:text-green-600 transition-colors font-medium">Caractéristiques</a>
                 <a href="#about" class="text-gray-700 hover:text-green-600 transition-colors font-medium">À propos</a>
@@ -35,15 +34,9 @@
 
             <!-- Bouton connexion/déconnexion Desktop -->
             <div class="hidden md:flex items-center">
-                <!-- Pour pages publiques (index.html) -->
                 <a href="./utilisateur/login.html" class="boutton bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors font-medium shadow-md">
                     Se connecter
                 </a>
-                
-                <!-- OU pour pages connectées (remplacer par) -->
-                <!-- <a href="../utilisateur/login.html" class="bg-red-600 text-white px-6 py-2 rounded-lg hover:bg-red-700 transition-colors font-medium shadow-md">
-                    Déconnexion
-                </a> -->
             </div>
 
             <!-- Bouton Hamburger (Mobile) -->
@@ -55,10 +48,10 @@
         </div>
     </div>
 
-    <!-- Menu Mobile - ADAPTER SELON LA PAGE -->
+    <!-- Menu Mobile  -->
     <div id="mobile-menu" class="hidden">
         <div class="px-4 py-3 space-y-1 bg-white shadow-lg">
-            <!-- Liens à adapter selon la page -->
+            
             <a href="#home" class="block text-gray-700 hover:text-green-600 hover:bg-gray-50 py-3 px-4 rounded-lg">
                 Accueil
             </a>
@@ -77,7 +70,7 @@
 
     <!----------------------------------------SECTION ACCEUIL------------------------------>
     <section id="home" class="relative pt-32 pb-20 px-6 bg-gradient-to-r from-green-500 to-green-600 overflow-hidden">
-        <!--Decorative elements-->
+        
         <div class="absolute top-0 right-0 w-96 h-96 bg-green-500 rounded-full filter blur-3xl opacity-20 -mr-48 -mt-48"></div>
         <div class="absolute bottom-0 left-0 w-96 h-96 bg-green-500 rounded-full filter blur-3xl opacity-20 -ml-48 -mb-48"></div>
         
@@ -280,13 +273,11 @@
 
     <!--------------------------------Section  CTA---------------------------------------->
 <section class="relative py-24 rounded-t-lg px-6 bg-gradient-to-br from-green-500 via-green-600 to-green-700 overflow-hidden">
-    <!-- Éléments décoratifs pour un look professionnel -->
     <div class="absolute inset-0 bg-black bg-opacity-10"></div>
     <div class="absolute top-0 left-0 w-64 h-64 bg-white rounded-full opacity-10 -ml-32 -mt-32"></div>
     <div class="absolute bottom-0 right-0 w-96 h-96 bg-green-400 rounded-full opacity-20 -mr-48 -mb-48"></div>
     
     <div class="container mx-auto relative z-10 text-center fade-in-section">
-        <!-- Titre principal plus impactant -->
         <h2 class="text-5xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
             Prêt à transformer votre gestion financière ?
         </h2>
@@ -294,7 +285,6 @@
             Rejoignez des milliers d'utilisateurs satisfaits et simplifiez votre quotidien dès aujourd'hui.
         </p>
         
-        <!-- Statistiques pour renforcer la crédibilité -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-6 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 fade-in-section">
                 <div class="text-4xl font-bold text-white mb-2">50K+</div>
@@ -310,7 +300,7 @@
             </div>
         </div>
         
-        <!-- Boutons CTA plus professionnels -->
+        <!-- Boutons CTA -->
         <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <a href="./utilisateur/login.html" class="inline-block bg-white text-green-600 px-12 py-5 rounded-lg font-bold text-xl hover:bg-gray-100 transition-all transform hover:scale-110 shadow-2xl hover:shadow-3xl animate-pulse">
                 <i class="fas fa-rocket mr-2"></i>Commencer maintenant
@@ -319,11 +309,6 @@
                <i class="fas fa-info-circle mr-2"></i> Voir les fonctionnalités
             </a>
         </div>
-        
-        <!-- Sous-titre pour créer de l'urgence
-        <p class="text-lg text-green-200 mt-8 italic">
-            Essai gratuit de 30 jours – Aucune carte de crédit requise.
-        </p> -->
     </div>
 </section>
 

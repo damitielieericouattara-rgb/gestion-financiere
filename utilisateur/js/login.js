@@ -1,32 +1,3 @@
-// document.getElementById('loginForm').addEventListener('submit', function(e) {
-//             e.preventDefault();
-            
-//             const login = document.getElementById('login').value;
-//             const password = document.getElementById('password').value;
-//             const messageDiv = document.getElementById('message');
-
-//             // Simulation de connexion (à remplacer par appel PHP)
-//             if (login && password) {
-//                 messageDiv.className = 'mt-4 p-3 rounded-lg bg-green-100 text-green-700';
-//                 messageDiv.textContent = 'Connexion réussie...';
-//                 messageDiv.classList.remove('hidden');
-
-//                 // Simulation redirection selon le rôle
-//                 setTimeout(() => {
-//                     if (login.toLowerCase().includes('admin')) {
-//                         window.location.href = '../admin/dashboard_admin.html';
-//                     } else {
-//                         window.location.href = 'mes_transactions.html';
-//                     }
-//                 }, 1000);
-//             } else {
-//                 messageDiv.className = 'mt-4 p-3 rounded-lg bg-red-100 text-red-700';
-//                 messageDiv.textContent = 'Identifiant ou mot de passe incorrect';
-//                 messageDiv.classList.remove('hidden');
-//             }
-//         });
-
-
 
         // Gestion de la sélection du type de compte
         function selectAccountType(type) {
